@@ -1,0 +1,22 @@
+cd /etc/apt
+chmod +x sources.list
+gedit sources.list
+
+#############################################################################################
+##-----------------------------------------------------------------------------------------##
+##    GO TO THE LINK https://gist.github.com/rohitrawat/60a04e6ebe4a9ec1203eac3a11d4afc1   ##
+##    COPY PASTE IT TO THE FILE sources.list AND SAVE. NOW RUN TWO COMMANDS GIVEN BELOW    ##
+##-----------------------------------------------------------------------------------------##
+#############################################################################################
+
+sudo apt-get update
+sudo apt-get upgrade
+
+ALTERNATIVE:
+#############################################################################################
+##-----------------------------------------------------------------------------------------##
+##    YOU CAN GENERATE THE SOURCES CONTENT ALSO FROM  THE LINK ACCORDING TO YOUR CHOICE    ##
+##    https://repogen.simplylinux.ch/ SELECT YOUR REQUIRED CONTENTS AND CLICK GENERATE     ##
+##    COPY PASTE IT TO THE FILE sources.list AND SAVE. NOW RUN TWO COMMANDS GIVEN BELOW    ##
+##-----------------------------------------------------------------------------------------##
+#############################################################################################
